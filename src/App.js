@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="/" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} /> 
         {/* Protected Routes */}
         <Route path="/dashboard" element={<Dashboard />} />
